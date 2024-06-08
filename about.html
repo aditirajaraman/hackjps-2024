@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">CareerTrack</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us!</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="display-4">About Us</h1>
+          <p class="lead">Welcome to CareerTrack - Your Personalized Career Journey Companion!</p>
+          <hr class="my-4">
+          <p>CareerTrack began with a simple yet ambitious goal: to help people in their career journey. We've been dedicated to providing innovative solutions and valuable resources to help individuals at every stage of their professional journey.</p>
+          <a class="btn btn-secondary btn-lg" href="#contact" role="button">Contact Us</a>
+        </div>
+
+          <section id="team" class="py-5">
+            <div class="container">
+              <h2 class="mb-4">Our Team</h2>
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img class="card-img-top" alt="Team Member 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Aditi</h5>
+                      <p class="card-text">Role</p>
+                      <p class="card-text">Explain what you worked on</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img class="card-img-top" alt="Team Member 2">
+                    <div class="card-body">
+                      <h5 class="card-title">Sara</h5>
+                      <p class="card-text">Role</p>
+                      <p class="card-text">Explain what you worked on</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img class="card-img-top" alt="Team Member 3">
+                    <div class="card-body">
+                      <h5 class="card-title">Manasvi</h5>
+                      <p class="card-text">Role</p>
+                      <p class="card-text">Explain what you worked on</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+  </body>
+
+</html>
+
+<style>
+    /* Add custom styles here */
+    .chat-popup {
+      position: fixed;
+      bottom: 0;
+      right: 15px;
+      max-width: 300px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+      display: none; /* Hidden by default */
+    }
+  </style>
