@@ -31,20 +31,6 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About Us!</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Profile</a></li>
-                <li><a class="dropdown-item" href="#">Help Desk</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Logout</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
           </ul>
           <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Profile
@@ -209,24 +195,25 @@
       background-clip: text;
       color: transparent;
     }
-    h2 {
-      font-size: 2.5rem;
-      font-weight: bold;
-      background-image: linear-gradient(to right, #0000ff, #800080);
-      -webkit-background-clip: text;
-      background-clip: text;
-      color: transparent;
+    .btn-primary {
+      background-color: #6a5acd; 
+      border-color: #6a5acd; 
     }
 
-    .chatbot {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 9999; 
+    .btn-primary:hover {
+      background-color: #483d8b; 
+      border-color: #483d8b; 
     }
 
-    .chatbot-icon {
-      width: 100px; 
-    }
+.chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chatbot-icon {
+  width: 100px; 
+}
+
   </style>
 </html>
