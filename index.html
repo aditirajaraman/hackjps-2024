@@ -20,25 +20,10 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About Us!</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Profile
+          </button>
         </div>
       </div>
     </nav>
@@ -69,6 +54,50 @@
         <h1>Achieve</h1>
         <p>Access resources, tutorials, and guidance to achieve your career goals.</p>
         <img src="achieve.png" alt="Achieve" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Window -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-4">Category</div>
+                <div class="col-md-8">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Select</option>
+                    <option value="1">Engineering</option>
+                    <option value="2">Medicine</option>
+                    <option value="3">Physical Sciences</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">Sub-Category</div>
+                <div class="col-md-8">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Select</option>
+                    <option value="1">Computer Science & Engg</option>
+                    <option value="2">Hardware</option>
+                    <option value="3">Firmware</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save Profile</button>
+        </div>
       </div>
     </div>
   </div>
